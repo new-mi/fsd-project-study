@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router";
-import { DefaultLayout } from "../layouts";
-import { HomePage } from "../../pages";
+import { HomePage } from "@/pages/home";
+import { DefaultLayout } from "@/app/layouts";
 
 export const routes = createBrowserRouter([
   {

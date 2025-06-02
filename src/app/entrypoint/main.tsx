@@ -1,8 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { RouterProvider } from "react-router";
-import "../styles/index.css";
-import { routes } from "../routes";
+import { routes } from "@/app/routes";
+import "@/app/styles/index.css";
 
 const rootElement = document.getElementById("root");
 
