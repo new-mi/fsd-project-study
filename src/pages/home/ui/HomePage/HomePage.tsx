@@ -1,5 +1,7 @@
 import { Link } from "react-router";
-import { Button, CONFIG, Icon, ROUTES } from "../../../../shared";
+import { CONFIG } from "@/shared/config";
+import { ROUTES } from "@/shared/routes";
+import { Button, Icon } from "@/shared/ui";
 
 export const HomePage = () => {
 	return (
